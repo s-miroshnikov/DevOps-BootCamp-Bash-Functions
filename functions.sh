@@ -28,5 +28,5 @@ done
 
 function print_log() {
 mesg=$*
-echo "$(date '+%Y-%m-%d %H:%M')"" $mesg"
+echo "[$(date '+%Y-%m-%d %H:%M')]"" $mesg"
 }
